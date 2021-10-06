@@ -9,3 +9,7 @@ git add
 second commit
 -------------------
 
+git add 
+third commit 
+
+-------------------
