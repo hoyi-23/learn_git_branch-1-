@@ -34,8 +34,11 @@ third commit
 合併 merge 
 
 我的featur1已經先做完了，可以先merge到專案的主線上(master)
-1. 指令: git checkout master / git merge feature1 
-2. GUI 
- merge feature1 會導致master前進
+指令: git checkout master / git merge feature1 
+
+----------------------
 我是feature2 ，完成了，所以也要merge到master 
 使用GUI 
+
+----------------------
+會遇到的error是，可能feature1 和 feature2 都寫在同個地方，會有衝突，這個時候只需要按接受both就可以!
