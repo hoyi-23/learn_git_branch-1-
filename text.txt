@@ -13,3 +13,6 @@ git add
 third commit 
 
 -------------------
+
+我是feature2 ，完成了，所以也要merge到master 
+使用GUI 
