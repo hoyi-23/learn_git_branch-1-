@@ -51,3 +51,5 @@ third commit
 ----------------------
 我在master上又多了兩次commit 
 commit1
+commit2 
+所以現在領先bugFix兩個點!
