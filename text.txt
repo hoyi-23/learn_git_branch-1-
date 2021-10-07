@@ -13,3 +13,19 @@ git add
 third commit 
 
 -------------------
+
+分支 branch
+
+什麼時候要開branch?
+想要測試新項目/寫法/功能....，只要和目前主線脫離的!
+
+開分支 git branch feature1 
+把HEAD切換 git checkout feature1 
+
+如果覺得要打兩個指令很麻煩可以使用:
+1. GUI : Git Graph(vscode的外掛)/source control 
+2. 指令: git checkout -b name 
+
+---------------------
+
+合併 merge 
