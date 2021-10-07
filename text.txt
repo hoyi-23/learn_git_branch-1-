@@ -47,3 +47,7 @@ third commit
 再練習一次 feature3 : 現在feature完成了! 可以merge 
 
 我是feature4，我也完成了! 可以merge 
+
+----------------------
+我在master上又多了兩次commit 
+commit1
