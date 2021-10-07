@@ -36,6 +36,3 @@ eg: HEAD回到前三步的第二個parents
 環境上有分local和remote 
 如果是在local，可以自己使用reset 
 但若是remote，記得要用revert
-
-------------------------------
-等等我要revert這個 feature5
