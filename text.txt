@@ -37,3 +37,5 @@ third commit
 1. 指令: git checkout master / git merge feature1 
 2. GUI 
  merge feature1 會導致master前進
+我是feature2 ，完成了，所以也要merge到master 
+使用GUI 
