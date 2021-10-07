@@ -53,3 +53,8 @@ third commit
 commit1
 commit2 
 所以現在領先bugFix兩個點!
+-----------------------
+ 我新增了一個bugFix分支
+ 這次要使用rebase的方式將分支貼到master分支後。
+
+ rebase不同於merge的地方在於，rebase比較線性!
