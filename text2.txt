@@ -1,3 +1,38 @@
-今天要練習HEAD分離與移動。
+今天要練習HEAD分離與移動
 ----------------------
-這是bugFix2
+我開了一個新的分支bugFix2 
+再commit一次
+----------------------
+經過剛剛會發現bugFix跑到Main分支前，
+我們可以透過動分支來改變這個狀態
+1. 移動分支:
+git branch -f 要移動的東西 移動到哪
+eg: git branch -f main bugFix2 
+2. 移動HEAD(用checkout即可):
+git checkout HEAD^ (把HEAD往上移一步)
+要注意:
+git checkout HEAD^^^
+git checkout HEAD~3
+這兩個感覺都是將HEAD往前移動三步，但是還是有些不同 
+有時候不同分支合併後會有多個parents 
+但是只使用 ^^^ 或 ~3 都只會將HEAD往上移動三步的第一個parents 
+如果像要到第二個或三個parents呢?
+eg: HEAD回到前三步的第二個parents 
+"git checkout HEAD^^^3"
+所以不同的地方就是，^直接加數字和~加數字。
+--------------------------
+取消git的修改
+首先來了解reset和revert的差別
+1. reset 重置，改寫歷史，回到過去
+缺點: 對遠端工作者的團隊比較有風險
+用法: 目前HEAD在準備要reset的那個點
+`git reset HEAD^` or `git reset 要回到地那個點`
+2. revert 反轉，再反著做一次
+會往前一個commit，反著做剛剛的動作。
+用法: HEAD要在想要revert的地方
+`git revert 那個點` < 我要revert那個點
+
+``
+環境上有分local和remote 
+如果是在local，可以自己使用reset 
+但若是remote，記得要用revert
