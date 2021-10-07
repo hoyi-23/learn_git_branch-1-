@@ -42,3 +42,6 @@ third commit
 
 ----------------------
 會遇到的error是，可能feature1 和 feature2 都寫在同個地方，會有衝突，這個時候只需要按接受both就可以!
+
+
+我是feature4，我也完成了! 可以merge 
