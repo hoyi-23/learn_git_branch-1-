@@ -58,3 +58,9 @@ commit2
  這次要使用rebase的方式將分支貼到master分支後。
 
  rebase不同於merge的地方在於，rebase比較線性!
+
+ HEAD移到bugFix後，git rebase master 
+ 可能會遇到conflict，就一樣accept both就好。
+ 再來加入暫存(git add)後輸入git rebase --continue
+ 就會看到bugFix變成最上面的!並且裡面已經有了master的所有內容。
+ 
