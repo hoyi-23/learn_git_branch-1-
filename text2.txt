@@ -27,6 +27,9 @@ eg: HEAD回到前三步的第二個parents
 缺點: 對遠端工作者的團隊比較有風險
 用法: 目前HEAD在準備要reset的那個點
 `git reset HEAD^` or `git reset 要回到地那個點`
+reset 其實可以再回覆的 只要`git checkout (commit的那個點)`
+代表就算reset，實際上其實那個點還在! 但工作上比較少用，因為比較少人會記得commit數字。
+
 2. revert 反轉，再反著做一次
 會往前一個commit，反著做剛剛的動作。
 用法: HEAD要在想要revert的地方
