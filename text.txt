@@ -26,6 +26,14 @@ third commit
 1. GUI : Git Graph(vscode的外掛)/source control 
 2. 指令: git checkout -b name 
 
+再來一樣要暫存 git add 
+然後commit git commit -m "feature1"
+
 ---------------------
 
 合併 merge 
+
+我的featur1已經先做完了，可以先merge到專案的主線上(master)
+1. 指令: git checkout master / git merge feature1 
+2. GUI 
+ merge feature1 會導致master前進
